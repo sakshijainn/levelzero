@@ -270,11 +270,12 @@ button
   border: 1px solid #fff;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.2rem;
-  padding:18px 10px;
+  font-size: 1rem;
+  padding:13px 6px;
   width:180px;
-  margin:10px;
+  margin:10px 6px;
   outline: none;
+  margin-left: 10rem;
 }
 
 button:hover 
@@ -286,6 +287,30 @@ button:hover
   border:1px solid #fff;
   color:#72ACC9;
 }
+
+#clockdiv{ 
+  width:800px;
+  margin:30px auto;
+  color:black;
+  text-align: center;
+}
+#clockdiv > div{ 
+  padding: 20px; 
+  border-radius: 3px; 
+  background: #CC3332; 
+  display: inline-block; 
+} 
+#clockdiv div > span{ 
+  padding: 15px; 
+  border-radius: 3px; 
+  background: white; 
+  display: inline-block; 
+} 
+smalltext{ 
+  padding-top: 5px; 
+  font-size: 16px; 
+  color:black;
+} 
 
 
 
@@ -339,6 +364,35 @@ button:hover
 }
 #title 
 {
-  font-size: 1em;
+  font-size: 0.4em;
+}
+
+
+#clockdiv{ 
+  width:100%;
+ margin:0;
+  color:black;
+  text-align: center;
+}
+#clockdiv > div{ 
+  padding: 10px; 
+  border-radius: 3px; 
+  background: #CC3332; 
+  display: inline-block; 
+} 
+#clockdiv div > span{ 
+  padding: 10px; 
+  border-radius: 3px; 
+  background: white; 
+  display: inline-block; 
+} 
+smalltext{ 
+  padding-top: 5px; 
+  font-size: 16px; 
+  color:black;
+} 
+#clockdiv h2 
+{
+  font-size: 2rem;
 }
 }

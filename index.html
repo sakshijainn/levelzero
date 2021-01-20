@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>About|Sakshi Jain</title>
+    <title>Level0|sakshicodrops</title>
   </head>
   <body>
     <!-- <h2>Sakshi Codes</h2> -->
     <nav class="navigation">
       <div class="nav-brand">JourneyWithNeoGCamp</div>
       <ul>
-        <li><a href="#project">Who Am I </a></li>
+        <li><a href="about.html">Who Am I </a></li>
         <li><a href="#blog">Moments</a></li>
       </ul>
     </nav>
@@ -162,19 +162,35 @@
       </section>
 
       <section class="watch">
-          <div class="wrapper-watch">
-              <h1  style="font-weight: 100;
-              font-size: 1em;
-              text-transform: uppercase;">Time to fly for a new sky of skills!</h1>
-              <h2 id="title" style="font-weight: 100;
-              font-size: 2em;
-              text-transform: uppercase;">WAITING FOR LEVEL 1</h2>
-              <p><span id="seconds">00</span>: <span id="tens">00</span></p>
-              <button id="start">START</button>
-              <button id="stop">STOP</button>
-              <button id="reset">RESET</button>
-
-          </div>
+      
+        <div id="clockdiv"> 
+            <h1  style="font-weight: 100;
+            font-size: 1em;
+            text-transform: uppercase; color: white;">Time to fly for a new sky of skills!</h1>
+            <h2 id="title" style="font-weight: 100;
+            font-size: 1.5em; color: white;
+            text-transform: uppercase;">WAITING FOR LEVEL 1</h2>
+            <div> 
+              <span class="days" id="day"></span> 
+              <div class="smalltext">Days</div> 
+            </div> 
+            <div> 
+              <span class="hours" id="hour"></span> 
+              <div class="smalltext">Hours</div> 
+            </div> 
+            <div> 
+              <span class="minutes" id="minute"></span> 
+              <div class="smalltext">Minutes</div> 
+            </div> 
+            <div> 
+              <span class="seconds" id="second"></span> 
+              <div class="smalltext">Seconds</div> 
+            </div> 
+          </div> 
+            
+          <p style="text-align: center; color:white; font-size: 1rem;" font-size=7 id="demo"></p> 
+        
       </section>
+      <script src="app.js"></script>
   </body>
 </html>
