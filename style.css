@@ -166,6 +166,14 @@ body {
     color:#142740;
     
 } 
+.challenge 
+{
+  text-align: center;
+  height:17vh;
+  width:100%;
+  color:#142740;
+  font-weight: bold;
+}
 
 
 .container .cards .content a
@@ -312,6 +320,12 @@ body {
 .wrapper-container
 {
     display: none;
+}
+.challenge 
+{
+  text-align: center;
+  height:22vh;
+  font-size: 0.9rem;
 }
 
 }
