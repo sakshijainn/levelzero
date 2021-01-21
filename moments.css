@@ -9,6 +9,7 @@
 body 
 {
     background: #fff;
+    
 }
 
   
@@ -42,7 +43,7 @@ body
     position: relative;
     column-count: 4;
     padding: 25px;
-    background-color: #FEFAD4;
+   
     
 }
 
@@ -128,7 +129,11 @@ h1
     }
     h1 
     {
-        font-size: 15px;
+        font-size: 12px;
+    }
+    p 
+    {
+        font-size: 0.3rem;
     }
 }
 
